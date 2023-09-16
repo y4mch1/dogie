@@ -1,0 +1,338 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the entire navigation bar */
+.navbar {
+    background-color: #fff; /* Background color is white */
+    color: #000; /* Text color is black */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Adjust padding as needed */
+}
+
+/* Style the logo */
+.logo a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #000; /* Text color for the logo is black */
+    font-size: 20px; /* Adjust font size as needed */
+    font-weight: 500; /* Optionally, make the logo bold */
+}
+
+/* Style the navigation links */
+.links {
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Adjust the space between the links */
+}
+
+.links li {
+
+    margin: 0;
+}
+
+.links a {
+    text-decoration: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: #000; /* Text color for the links is black */
+    font-size: 14px; /* Adjust font size as needed */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+/* Style the action button */
+.action_btn {
+    font-family: 'Roboto', sans-serif;
+    border-style: solid;
+    border-color: #ff970f;
+    text-decoration: none; /* Button background color is black */
+    color: #000; /* Text color for the button is white */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-radius: 10px; /* Optional: Add rounded corners to the button */
+}
+
+/* Hover effect for links and button */
+.links li a:hover,
+.action_btn:hover {
+    background-color: #fff; /* Change the background color on hover */
+    color: #ff970f; /* Change the text color on hover to white */
+}
+
+.blox1{
+    margin-top: 30px;
+    display: flex;
+}
+.title{
+    margin-top: -100px;
+    padding-left: 90px;
+}
+.title h1{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 38px;
+    padding: 7px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 800;
+}
+.title p{
+    text-align: center;
+    font-size: 14px;
+    padding: 7px;
+    font-family: 'Rubik', sans-serif;
+}
+span{
+    color: #D884FF;
+}
+.read{
+    font-weight: 600;
+    margin-top:40px;
+    padding: 7px;
+    border-radius: 25px;
+    border-style: none;
+    background-color: #ff970f;
+    color: white;
+    margin-left: 98px;
+    width: 200px;
+    transition: 0.3s;
+    cursor: pointer;
+    
+}
+.read p{
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+}
+img{
+    margin-right: 37px;
+    padding: 7px;
+    width: 670px;
+}
+.do {
+    position: relative;
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Vertically center content */
+  }
+  
+  #photo1, #photo2 {
+    position: absolute;
+    margin-top:79px;
+    margin-left: 20px;
+    border-radius: 25px;
+  }
+  
+  #photo1 img {
+    top: 0;
+    left: 0;
+    width: 460px;
+  }
+  
+  #photo2 img {
+    top: 60px;
+    margin-top: 100px;
+    margin-left: 290px;
+    width: 360px; /* Adjust the percentage to control the size */
+  }
+  #title {
+    flex: 1; /* Let it take up the remaining space */
+    margin-left: 760px;
+    margin-right:50px; /* Adjust the margin as needed */
+    margin-top: 15px;
+  }
+  
+  #title h2 {
+    font-size: 24px;
+    font-family: 'Rubik', sans-serif;
+  }
+  #title p{
+   font-family:'Rubik', sans-serif ;
+   font-size: 16px;
+   font-weight: 300;
+   color: #000000a1;
+   margin-top: 54px;
+  }
+  .purpose {
+    margin-top: 200px;
+    position: relative;
+  }
+  .purposetext {
+    position: absolute;
+    top: 70px;
+    margin-right: 780px;
+    margin-left: 45px;
+    bottom: 20px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+ .purpose h2 {
+    margin-top: 30px;
+    font-size: 24px;
+    font-family: 'Rubik', sans-serif;
+ }
+ .purpose p{
+    font-family:'Rubik', sans-serif ;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 54px;
+    color: #ffffffcc;
+ }
+ .services {
+    margin-top: 75px;
+    position: relative;
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Vertically center content */
+  }
+  
+  #photo3, #photo4 {
+    position: absolute;
+    margin-top:79px;
+    margin-left: 20px;
+    border-radius: 25px;
+  }
+  
+  #photo3 img {
+    top: 0;
+    left: 0;
+    width: 440px;
+    height: 300px;
+  }
+  
+  #photo4 img {
+    top: 60px;
+    margin-top: 100px;
+    margin-left: 290px;
+    width: 360px; /* Adjust the percentage to control the size */
+  }
+  #titles {
+    flex: 1; /* Let it take up the remaining space */
+    margin-left: 760px;
+    margin-right:50px; /* Adjust the margin as needed */
+    margin-top: 15px;
+  }
+  
+  #titles h2 {
+    font-size: 24px;
+    font-family: 'Rubik', sans-serif;
+  }
+  #titles p{
+   font-family:'Rubik', sans-serif ;
+   font-size: 16px;
+   font-weight: 300;
+   color: #000000a1;
+   margin-top: 54px;
+  }
+  
+  .join {
+    margin-top: 200px;
+    position: relative;
+  }
+  .jtext {
+    position: absolute;
+    top: 70px;
+    margin-right: 780px;
+    margin-left: 25px;
+    bottom: 20px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+ .join h2 {
+    margin-top: -10px;
+    font-size: 24px;
+    font-family: 'Rubik', sans-serif;
+ }
+ .join p{
+    font-family:'Rubik', sans-serif ;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-right: 150px;
+    color: #ffffffcc;
+ }
+.join button{
+    margin-top: 35px;
+    background-color: #ff970f;
+    border: none;
+    border-radius: 25px;
+    font-family: 'Rubik', sans-serif;
+    width: 130px;
+    height:30px;
+    transition: 0.3s;
+    cursor: pointer;
+
+ }
+ .join button p{
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    margin-right: 8px;
+    font-weight: 600;
+    margin-top: 0px;
+ }
+
+ button:hover{
+    background-color: #ffffff;
+    
+ }
+ 
+ button p:hover{
+    color: #ff970f;
+ }
+ 
+ button:active{
+    background-color: #ff970f7c;
+ }
+
+ .foot {
+    font-family: 'Rubik', sans-serif;
+    margin-top: 80px;
+    background-color: #fff; /* Add your desired background color */
+    color: #000; /* Add your desired text color */
+    padding: 20px; /* Add padding as needed */
+  }
+  
+  .tfoot {
+    display: flex;
+    justify-content: space-around; /* Use flexbox to create a layout with two columns */ /* Space evenly between the two columns */
+  }
+  
+  .footer-column {
+    flex: 1; /* Make each column take up an equal amount of space */
+  }
+  
+  .footer-section {
+    color: #232222;
+   font-size: 14px;
+    margin-left: 40px;
+    text-align: left; /* Center the content within each section */
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    color: #646363;
+    font-size: 14px;
+    margin-left: 10px;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 10px; /* Add margin between list items */
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000; /* Style links with your desired color */
+  }
+  
+  
